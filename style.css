@@ -6,3 +6,7 @@ body {
   background-color: #3700AB;
   color: #fff;
 }
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 3s;
+}
