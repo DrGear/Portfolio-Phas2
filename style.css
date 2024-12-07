@@ -8,5 +8,9 @@ body {
 }
 
 .animate__animated.animate__fadeIn {
-  --animate-duration: 3s;
+  --animate-duration: 1s;
+}
+
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 1.5s;
 }
