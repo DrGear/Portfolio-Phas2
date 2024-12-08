@@ -9,7 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="animationCheck.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <title>My Portfolio Website</title>
+  <title>My Portfolio</title>
 </head>
 <body>
   <div id="notification">
@@ -25,7 +25,6 @@
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
           <a class="nav-link" href="about-me.html">About Me</a>
-          <a class="nav-link" href="#">Work</a>
           <a class="nav-link" href="#">Contact</a>
         </div>
       </div>
@@ -39,13 +38,73 @@
       </div>
       <div class="col-md-6 animate__animated animate__fadeInUp">
         <h1>My Portfolio</h1>
-        <p>Welcome to my portfolio website!</p>
+        <h2>Welcome to my portfolio website!</h2>
         <br>
         <h6>My name is Dr.Gears, aka TD. I am a Python and Web App developer. 
-          I like to code fun Python projects and put them up on my Github profile, which you can find below
-        </h6>
+          I like to code fun Python projects and put them up on my Github profile, which you can find in this here accordion!
+          <br>
+          <br>
+          In my spare time, I like to play games and make some projects and learn more about other coding languages.
+          <br>
+          <br>
+          Click each section in the accordion below to check out some of my projects!
+          <br>
 
-      </div>
+          <div class="accordion animate__animated animate__fadeInRight" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ScrapeBooru
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This is one of my Python projects. To avoid talking about it in too much detail, this uses Tkinter GUI to scrape images from an image site using tags. This is the 3rd best project I have made so far.
+                  <br>
+                  <br>
+                  <a class="btn btn-primary" href="https://github.com/DrGear/ScrapeBooru" target="_blank">Go to Repo</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ElevenBot
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This project was my first collab with a fairly small website back then. This is ElevenBot, a bot that used ElevenLabs (AI TTS site) API to generate voices and create new voices as well. Sadly, this bot was shut down a while ago due to it being poorly made overall.
+                  <br>
+                  <br>
+                  <a class="btn btn-primary" href="https://github.com/PiotrDabkowski/discord-bot" target="_blank">Go to Repo</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  SpiltCoffee
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  This last project was one of the best that I've made. This is around 2062 lines of code altogether. This project is an image filter application, where you give an image and you can choose from a whole bunch of filters, including some that will autodraw the result image for you. I recommend checking this one out for sure.
+                  <br>
+                  <a class="btn btn-primary" href="https://github.com/DrGear/SpiltCoffee" target="_blank">Go to Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div style="text-align: center;">
+            <h3>Feel free to check out my GitHub profile as well! Just click the octocat below!</h3>
+            <a href="https://github.com/DrGear" target="_blank" style="color: inherit; text-decoration: none;">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </a>
+          </div>
+        </h6>
+      </div>  
     </div>
   </div>  
 </body>
